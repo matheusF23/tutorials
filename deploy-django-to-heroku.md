@@ -75,7 +75,7 @@ Pronto, agora basta configurar o arquivo o [heroku.yml](https://devcenter.heroku
 ```yml
 build:
   docker:
-    web: app/Dockerfile
+    web: app/Dockerfile   # Indique a localicação de sua imagem docker
 
 release:
   command:
